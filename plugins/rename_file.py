@@ -47,7 +47,7 @@ async def rename_doc(bot, update):
            return False
        else:
            return True
-     except UserNotParticipant
+     except UserNotParticipant:
          if edit_message:
               button = [[InlineKeyboardButton('Join Edith Bots', url='https://t.me/EdithBots')]]
               markup = InlineKeyboardMarkup(button)
