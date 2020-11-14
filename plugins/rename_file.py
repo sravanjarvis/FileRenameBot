@@ -57,7 +57,7 @@ async def rename_doc(bot, update):
             await reply('You are banned.')
     except Exception:
         LOGGER.exception('Unable to verify User')
-        if edit_message
+        if edit_message:
             await reply('Something went wrong while checking Channel verification, Please contact Support')
     return False
     TRChatBase(update.from_user.id, update.text, "rename")
