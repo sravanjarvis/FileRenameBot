@@ -47,19 +47,19 @@ async def rename_doc(bot, update):
            return False
        else:
            return True
-     except UserNotParticipant:
-         if edit_message:
-              button = [[InlineKeyboardButton('Join Edith Bots', url='https://t.me/EdithBots')]]
-              markup = InlineKeyboardMarkup(button)
-              await reply("""To use this bot , You have to be a part of @EdithBots. Join our channel and enjoy using the bot""" reply_markup=markup)
-     except UserBannedInChannel:
-         if edit_message:
-             await reply('You are banned.')
-     except Exception:
-         LOGGER.exception('Unable to verify User')
-         if edit_message
-             await reply('Something went wrong while checking Channel verification, Please contact Support')
-     return False
+    except UserNotParticipant:
+        if edit_message:
+             button = [[InlineKeyboardButton('Join Edith Bots', url='https://t.me/EdithBots')]]
+             markup = InlineKeyboardMarkup(button)
+             await reply("""To use this bot , You have to be a part of @EdithBots. Join our channel and enjoy using the bot""" reply_markup=markup)
+    except UserBannedInChannel:
+        if edit_message:
+            await reply('You are banned.')
+    except Exception:
+        LOGGER.exception('Unable to verify User')
+        if edit_message
+            await reply('Something went wrong while checking Channel verification, Please contact Support')
+    return False
     TRChatBase(update.from_user.id, update.text, "rename")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
