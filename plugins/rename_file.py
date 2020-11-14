@@ -51,7 +51,7 @@ async def rename_doc(bot, update):
         if edit_message:
              button = [[InlineKeyboardButton('Join Edith Bots', url='https://t.me/EdithBots')]]
              markup = InlineKeyboardMarkup(button)
-             await reply("""To use this bot , You have to be a part of @EdithBots. Join our channel and enjoy using the bot""" reply_markup=markup)
+             await reply("""To use this bot , You have to be a part of @EdithBots. Join our channel and enjoy using the bot"""  reply_markup=markup)
     except UserBannedInChannel:
         if edit_message:
             await reply('You are banned.')
