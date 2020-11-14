@@ -23,6 +23,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import Client, Filters
+from pyrogram.errors import UserNotParticipant
 
 from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import progress_for_pyrogram
@@ -47,7 +48,7 @@ async def rename_doc(bot, update):
            return False
        else:
            return True
-from pyrogram.errors import UserNotParticipant
+
     except UserNotParticipant:
         if edit_message:
              button = [[InlineKeyboardButton('Join Edith Bots', url='https://t.me/EdithBots')]]
