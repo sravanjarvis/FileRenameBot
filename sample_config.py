@@ -36,4 +36,6 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     # Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
+    #Get This from your channel 
+    CHANNEL = @NeetJeeFormulae
     
