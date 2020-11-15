@@ -28,10 +28,10 @@ class Translation(object):
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
     ABOUT_ME = """<b>Meh : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n i can also convert files into videos \n Join @Mai_BoTs If You Found Meh Useful</b>"""
-    HELP_USER = """Ohh You Want Help?? 😅
+    HELP_USER = """<b>Follow these Steps </b>
     
-1.🔹 <b>Send me any Telegram File.</b> \n
-2.🔹 <b>Reply to that message with /rename New file name.extnsion</b> \n
-3.🔹 <b> Send A Photo to make it as permanent Thumbnail</b> \n
-4.🔹 <b> I Can Also Convert Files Into Video through /c2v Command </b>   \n \n <b>Made With Love By: @mai_boTs</b>"""
+1. <b>Send me any Telegram File.</b> \n
+2. <b>Reply  that message with /rename New file name.extnsion</b> \n
+3. <b> Send A Photo to make it as permanent Thumbnail</b> \n
+4. <b> I Can Also Convert Files Into Video through /c2v Command </b>   \n \n <b>Made With Love By: @mai_boTs</b>"""
 
