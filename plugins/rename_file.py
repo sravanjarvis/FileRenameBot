@@ -48,13 +48,13 @@ async def rename_doc(bot, update):
         if chat.status == 'kicked':
             raise UserBannedInChannel
     except UserNotParticipant:
-        await update.reply(f'Join {Config.CHANNEL} channel then try again')
+        await update.reply(f'To use this Bot, You have to Join {Config.CHANNEL} \n\n Join {Config.CHANNEL} and Enjoy the Bot ❤️')
         return
     except UserBannedInChannel:
         await  update.reply_text("You are B A N N E D")
         return
     except Exception:
-        await update.reply('Unable to verify user channel subscription')
+        await update.reply('Unable to verify user channel subscription, Contact @StarkFeedBackBot')
         return
     
     TRChatBase(update.from_user.id, update.text, "rename")
