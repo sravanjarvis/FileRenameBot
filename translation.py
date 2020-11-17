@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """ <b> Hi {} , I'm A Powerful File Renamer and File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
 
 <b>Bot Maintained By: @StarkBots</b> \n
 <b>Do /help for more...</b> \n
@@ -9,9 +9,9 @@ class Translation(object):
     BANNED_USER_TEXT = "Sorry!! But Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @StarkFeedBackBot For more Details.. " 
     ABS_TEXT = "What Are You Trying To Do,Mate?"
     UPGRADE_TEXT = "CONTACT @StarkFeedBackBot "
-    DOWNLOAD_START = "<b>Downloading To My server !! pls Wait</b>"
+    DOWNLOAD_START = "<b>Downloading The File To My server !! Please Wait</b>"
     UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TG</b>"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry WTF Do You Think! I'll Upload It?"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry, I cant Upload it due to Telegram Limitations"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me JOin > @StarkBots  ☺️**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "CONTACT @StarkFeedBackBot "
