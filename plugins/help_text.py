@@ -70,11 +70,11 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/EdithBots'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/EdithBotsSupport')
+                    InlineKeyboardButton('Support Channel', url='https://t.me/StarkBots'),
+                    InlineKeyboardButton('Feedback', url='https://t.me/StarkFeedBackBot')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/EdithBots'),
+                    InlineKeyboardButton('Other Bots', url='https://t.me/StarkBots'),
                 ]
             ]
         ),
