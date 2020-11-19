@@ -37,5 +37,5 @@ class Config(object):
     # Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
     #Get This from your channel 
-    CHANNEL = "@StarkBots"
+    CHANNEL = "@NeetJeeFormulae"
     
